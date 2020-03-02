@@ -59,9 +59,9 @@ Below listed are the Machine Learning algorithms we experimented to predict the 
 4.  2-Layered Neural Networks
 5.  Convolutional Neural Network based on VGG16 architecture (CNN)
 
-We split labelled dataset into 75% Train, 15% Validation and 10% Test data to evaluate our model. We were able to achieve an average accuracy of ~ 94%. 
+We split the labelled dataset into 75% Train, 15% Validation and 10% Test data to evaluate our model. We were able to achieve an average accuracy of ~ 94%. 
 
-### Environmental Requirements
+### Environment
 
 1. Any IDE or terminal to execute Python scripts
 2. Pre-installed Python Libraries
@@ -83,8 +83,7 @@ Feature extraction is an important step in any machine learning problem. Selecti
 Our models are applicable to the following applications and many more
 1.  If installed in a car, it can alarm/warn if the driver is distracted.
 2.  In semi-autonomous vehicles, the vehicle can take control if the driver is distracted.
-3.  Government can use to enforce laws on safe & distraction free driving.
-4.  Auto Insurance companies can use these models in re-writing auto policies.
+3.  Auto Insurance companies can use these models in re-writing auto policies.
 
 [`Image Source`]
 
