@@ -31,7 +31,7 @@ various features using:
 #### 1. Pixels:
 Each image’s pixels is flattened into a column vector of size 64X64X3. We then combined the vectors for each of the data instances and created a matrix as the input data to our models.
 
-<img src="Images/pixel.JPG">
+<img src="Images/pixel.jpg">
 
 #### 2. HOG Feature Descriptor:
 Count occurrences of gradient orientation in localized portions. Stacked all the HOG gradient features to generate a feature matrix. We then combined the vectors for each of the data instances and created a matrix as the input data to our models.
@@ -47,7 +47,7 @@ Obtained edges using Sobel gradient in X and Y direction. Then computed the resu
 
 Resize image to 64x64 RGB image. To reduce the number of features we decided to create a clusters. Hence, implement K means clustering on each image with K=3, middle image (in our case). Stack cluster fe atures to create feature matrix.
 
-<img src="Images/clustering.JPG">
+<img src="Images/clustering.jpg">
 
 ### Machine Learning Algorithms
 
